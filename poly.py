@@ -2110,6 +2110,8 @@ small_group_generator = from_jac(Point(FQ2([0x2140576f64bcf3624997117a1dc244bc1f
                                             0x224240152de2d395ba9c22be7db2ff3d3dc696e335ef027f3515902f256faba7]),
                                        FQ2([0x26637f6e1274535644c78580c3a4bab0f6fc336ff4c20e857ce98bdf86918776,
                                             0x2094193cc75a067092ca0c0bde0c0471254fc0434c868a045345e6f656c84fa1])))
+print("small_group_generator")
+print(small_group_generator)
 
 small_group_order = E_order_factors[7]
 
